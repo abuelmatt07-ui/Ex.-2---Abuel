@@ -1,6 +1,6 @@
 
 try:
-    with open("Notes.txt", "w") as Note:
+    with open("Exercise 2/Notes.txt", "w") as Note:
         Note.write(input("Input Note: "))
 
 except:
